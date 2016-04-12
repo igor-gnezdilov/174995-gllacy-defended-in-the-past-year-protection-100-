@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Igor Gnezdilov](https://up.htmlacademy.ru/htmlcss/13/user/174995).
-* Наставник: `Неизвестно`.
+* Наставник: [Марина Сулим](https://htmlacademy.ru/profile/marina_borisova).
 
 ---
 

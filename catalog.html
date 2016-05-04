@@ -7,13 +7,13 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <div class="logo">
-          <a href="index.html"><img src="img/logo.gllacy.svg" width="154" height="64" alt="Gllacy Shop"></a>
+          <img src="img/logo.gllacy.svg" width="154" height="64" alt="Gllacy Shop">
         </div>
         <nav class="main-navigation">
           <ul>
-            <li class="main-active">
+            <li>
               <a href="#">Каталог</a>
             </li>
             <li>
@@ -27,11 +27,11 @@
         <div class="user-block">
           <a class="search" href="#">Search</a>
           <a class="login" href="#">Вход</a>
-          <a class="basket" href="#">2 товара</a>
-        </div>
-        <div class="header-box">
-          <p class="header-time">C 10 до 20, ежедневно</p>
-          <p class="header-phone">8 812 450-25-25</p>
+          <a class="basket" href="#">Пусто</a>
+          <div class="time-phone">
+            <span>C 10 до 20, ежедневно</span><br>
+            <span>8 812 450-25-25</span>
+          </div>
         </div>
       </div>
     </header>
@@ -41,29 +41,29 @@
         <a class="breadcrumbs-catalog" href="#">Каталог</a>
         <span class="breadcrumbs-creamy">Сливочное</span>
       </div>
-      <h1>Сливочное мороженое</h1>
+      <h1 class="title">Сливочное мороженое</h1>
       <aside class="criteria">
-        <form name="criteria" method="post" action="#">
-          <section>
+        <form name="criteria-set" method="post" action="#">
+          <section class="criteria1">
             <span class="criteria-sorting">Cортировка:</span><br>
             <select name="sorting">
               <option value="popularity">По популярности</option>
             </select>
           </section>
-          <section>
+          <section class="criteria1">
             <span class="criteria-price">Цена: 100 руб. - 500 руб.</span><br>
             <input type="text" id="minCost" value="100"/>
             <input type="text" id="maxCost" value="500"/>
             <div id="slider"></div>
           </section>
-          <section>
+          <section class="criteria1">
             <span class="criteria-fatness">Жирность:</span><br>
             <input type="radio" name="criteria-fatness" value="0%" id="check1"><label for="check1">0%</label>
             <input type="radio" checked name="criteria-fatness" value="to10%" id="check2"><label for="check2">До 10%</label>
             <input type="radio" name="criteria-fatness" value="to30%" id="check3"><label for="check3">До 30%</label>
             <input type="radio" name="criteria-fatness" value="above30%" id="check4"><label for="check4">Выше 30%</label>
           </section>
-          <section>
+          <section class="criteria2">
             <span class="criteria-fillers">Наполнители:</span><br>
             <input type="checkbox" checked id="fillers-check1"><label for="fillers-check1">Шоколадные</label>
             <input type="checkbox" checked id="fillers-check2"><label for="fillers-check2">Сахарные присыпки</label>
@@ -71,7 +71,7 @@
             <input type="checkbox" id="fillers-check4"><label for="fillers-check4">Сиропы</label>
             <input type="checkbox" id="fillers-check5"><label for="fillers-check5">Джемы</label>
           </section>
-            <input type="submit" value="Применить">
+            <input class="criteria2" type="submit" value="Применить">
         </form>
       </aside>
       <section class="items">
@@ -176,7 +176,7 @@
         </section>
         <section class="footer-copyright">
           <div class="logo-academy">
-            <img src="http://placehold.it/50x50" width="50" height="50" alt="HTML Academy">
+            <img src="http://placehold.it/30x30" width="30" height="30" alt="HTML Academy">
           </div>
           <p>Сделано в <a class="btn" href="https://htmlacademy.ru">HTML Academy</a> © 2016</p>
         </section>

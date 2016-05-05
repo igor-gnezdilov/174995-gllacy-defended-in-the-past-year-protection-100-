@@ -53,14 +53,19 @@ h3 {
   background-color: rgba(0, 0, 255, 0.3);
   text-align: center;
 }
+.slider-logo {
+  font-size: 0;
+}
 .slider-promotion {
   padding-top: 270px;
   margin-bottom: 30px;
+  font-size: 16px;
 }
 .slider-btn {
   position: relative;
   display: inline-block;
   margin-bottom: 40px;
+  font-size: 16px;
 }
 .promotion {
   margin-bottom: 40px;
@@ -143,14 +148,21 @@ h3 {
 .title {
   margin-bottom: 32px;
 }
+.criteria {
+  font-size: 0;
+}
 .criteria1 {
   position: relative;
   display: inline-block;
+  font-size: 16px;
+  background-color: rgba(0, 0, 255, 0.3);
 }
 .criteria2 {
   position: relative;
   display: inline-block;
   margin-bottom: 40px;
+  font-size: 16px;
+  background-color: rgba(0, 0, 255, 0.3);
 }
 .items {
   font-size: 0;

@@ -261,7 +261,7 @@
               <form action="#" method="post">
                 <a href="#" class="btn btn-form">Отправить</a>
                 <div class="news-form clearfix">
-                  <input type="email" class="textarea news-input" name="email" id="news-input">
+                  <input type="email" required class="textarea news-input" name="email" id="news-input">
                   <div class="placeholder">
                     <label for="news-input" class="form-hint form-hint-subscription">Электронная почта</label>
                   </div>
@@ -332,15 +332,15 @@
         <h4 class="feedback-title">Мы обязательно вам ответим!</h4>
         <button class="feedback-btn feedback-btn-close"></button>
         <form action="#" method="post">
-          <input type="text" class="textarea" name="name" id="feedback-name">
+          <input type="text" class="textarea" name="name" required id="feedback-name">
           <div class="placeholder">
             <label for="feedback-name" class="form-hint form-hint-feedback">Как вас зовут?</label>
           </div>
-          <input type="email" class="textarea" name="email" id="feedback-email">
+          <input type="email" class="textarea" name="email" required id="feedback-email">
           <div class="placeholder">
             <label for="feedback-email" class="form-hint form-hint-feedback">Ваша почта для ответа?</label>
           </div>
-          <textarea class="textarea textarea-large" cols="30" rows="5" name="text" id="feedback-text"></textarea>
+          <textarea class="textarea textarea-large" cols="30" rows="5" name="text" required id="feedback-text"></textarea>
           <div class="placeholder placeholder-large">
             <label for="feedback-text" class="form-hint form-hint-feedback">Напишите что-нибудь...</label>
           </div>

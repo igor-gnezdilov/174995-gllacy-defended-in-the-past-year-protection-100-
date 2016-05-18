@@ -311,7 +311,7 @@ textarea {
   top: -17px;
 }
 .user-block-input {
-  width: 218px;
+  width: 311px;
   margin: 0;
   padding: 10px 11px;
   font-weight: 400;
@@ -481,7 +481,7 @@ textarea {
   left: 15px;
   width: 21px;
   height: 20px;
-  background-position: -10px -10px;
+  background-position: -42px -50px;
 }
 .user-block-btn-cart:hover::before {
   background-position: -10px -50px;
@@ -669,6 +669,7 @@ textarea {
   padding: 12px 22px;
   font-size: 17px;
   line-height: 21px;
+  border: none;
 }
 .btn-cart {
   float: right;
@@ -788,15 +789,15 @@ textarea {
 .catalog-item-title span {
   border-bottom: 1px solid rgba(230, 230, 235, 0.4);
 }
-.catalog-item:hover .catalog-item-title span {
+.catalog-item:hover .title-span {
   border: none;
 }
 .btn-catalog {
   position: absolute;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   display: none;
-  max-width: 147px;
+  min-width: 147px;
   margin: 0 auto;
   margin-top: 20px;
   text-align: center;
@@ -811,7 +812,7 @@ textarea {
   padding-bottom: 17px;
   font-size: 0;
   color: #323232;
-  background: url("../img/waffle.pattern.jpg");
+  background: #ece0c8 url("../img/waffle.pattern.jpg");
   border-radius: 13px;
 }
 .features-title {
